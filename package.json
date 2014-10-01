@@ -1,0 +1,34 @@
+{
+  "name": "ht-cli",
+  "preferGlobal": true,
+  "bin": {
+    "ht": "index.js"
+  },
+  "version": "0.0.3",
+  "description": "CLI tool for Hudson-Taylor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hudson-taylor/ht-cli.git"
+  },
+  "keywords": [
+    "ht",
+    "hudson-taylor",
+    "cli",
+    "architecture",
+    "services"
+  ],
+  "author": "Adam Brady <adam@boxxen.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudson-taylor/ht-cli/issues"
+  },
+  "homepage": "https://github.com/hudson-taylor/ht-cli",
+  "dependencies": {
+    "inquirer": "^0.8.0",
+    "rimraf": "^2.2.8"
+  }
+}
